@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2776D7401FFC61A100A1C742 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2776D73F1FFC61A100A1C742 /* AppDelegate.swift */; };
+		2776D7421FFC61A100A1C742 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2776D7411FFC61A100A1C742 /* ViewController.swift */; };
+		2776D7451FFC61A100A1C742 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2776D7431FFC61A100A1C742 /* Main.storyboard */; };
+		2776D7471FFC61A100A1C742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2776D7461FFC61A100A1C742 /* Assets.xcassets */; };
+		2776D74A1FFC61A100A1C742 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2776D7481FFC61A100A1C742 /* LaunchScreen.storyboard */; };
+		2776D7551FFC61A100A1C742 /* YYPraiseEmitterButtonSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2776D7541FFC61A100A1C742 /* YYPraiseEmitterButtonSwiftTests.swift */; };
+		2776D7601FFC61A100A1C742 /* YYPraiseEmitterButtonSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2776D75F1FFC61A100A1C742 /* YYPraiseEmitterButtonSwiftUITests.swift */; };
+		2776D76E1FFC61C200A1C742 /* YYPraiseEmitterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2776D76D1FFC61C200A1C742 /* YYPraiseEmitterButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2776D7511FFC61A100A1C742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2776D7341FFC61A100A1C742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2776D73B1FFC61A100A1C742;
+			remoteInfo = YYPraiseEmitterButtonSwift;
+		};
+		2776D75C1FFC61A100A1C742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2776D7341FFC61A100A1C742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2776D73B1FFC61A100A1C742;
+			remoteInfo = YYPraiseEmitterButtonSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2776D73C1FFC61A100A1C742 /* YYPraiseEmitterButtonSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYPraiseEmitterButtonSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2776D73F1FFC61A100A1C742 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2776D7411FFC61A100A1C742 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2776D7441FFC61A100A1C742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2776D7461FFC61A100A1C742 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2776D7491FFC61A100A1C742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2776D74B1FFC61A100A1C742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2776D7501FFC61A100A1C742 /* YYPraiseEmitterButtonSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYPraiseEmitterButtonSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2776D7541FFC61A100A1C742 /* YYPraiseEmitterButtonSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYPraiseEmitterButtonSwiftTests.swift; sourceTree = "<group>"; };
+		2776D7561FFC61A100A1C742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2776D75B1FFC61A100A1C742 /* YYPraiseEmitterButtonSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYPraiseEmitterButtonSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2776D75F1FFC61A100A1C742 /* YYPraiseEmitterButtonSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYPraiseEmitterButtonSwiftUITests.swift; sourceTree = "<group>"; };
+		2776D7611FFC61A100A1C742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2776D76D1FFC61C200A1C742 /* YYPraiseEmitterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYPraiseEmitterButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2776D7391FFC61A100A1C742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2776D74D1FFC61A100A1C742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2776D7581FFC61A100A1C742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2776D7331FFC61A100A1C742 = {
+			isa = PBXGroup;
+			children = (
+				2776D73E1FFC61A100A1C742 /* YYPraiseEmitterButtonSwift */,
+				2776D7531FFC61A100A1C742 /* YYPraiseEmitterButtonSwiftTests */,
+				2776D75E1FFC61A100A1C742 /* YYPraiseEmitterButtonSwiftUITests */,
+				2776D73D1FFC61A100A1C742 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2776D73D1FFC61A100A1C742 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2776D73C1FFC61A100A1C742 /* YYPraiseEmitterButtonSwift.app */,
+				2776D7501FFC61A100A1C742 /* YYPraiseEmitterButtonSwiftTests.xctest */,
+				2776D75B1FFC61A100A1C742 /* YYPraiseEmitterButtonSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2776D73E1FFC61A100A1C742 /* YYPraiseEmitterButtonSwift */ = {
+			isa = PBXGroup;
+			children = (
+				2776D73F1FFC61A100A1C742 /* AppDelegate.swift */,
+				2776D7411FFC61A100A1C742 /* ViewController.swift */,
+				2776D76D1FFC61C200A1C742 /* YYPraiseEmitterButton.swift */,
+				2776D7431FFC61A100A1C742 /* Main.storyboard */,
+				2776D7461FFC61A100A1C742 /* Assets.xcassets */,
+				2776D7481FFC61A100A1C742 /* LaunchScreen.storyboard */,
+				2776D74B1FFC61A100A1C742 /* Info.plist */,
+			);
+			path = YYPraiseEmitterButtonSwift;
+			sourceTree = "<group>";
+		};
+		2776D7531FFC61A100A1C742 /* YYPraiseEmitterButtonSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				2776D7541FFC61A100A1C742 /* YYPraiseEmitterButtonSwiftTests.swift */,
+				2776D7561FFC61A100A1C742 /* Info.plist */,
+			);
+			path = YYPraiseEmitterButtonSwiftTests;
+			sourceTree = "<group>";
+		};
+		2776D75E1FFC61A100A1C742 /* YYPraiseEmitterButtonSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2776D75F1FFC61A100A1C742 /* YYPraiseEmitterButtonSwiftUITests.swift */,
+				2776D7611FFC61A100A1C742 /* Info.plist */,
+			);
+			path = YYPraiseEmitterButtonSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2776D73B1FFC61A100A1C742 /* YYPraiseEmitterButtonSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2776D7641FFC61A100A1C742 /* Build configuration list for PBXNativeTarget "YYPraiseEmitterButtonSwift" */;
+			buildPhases = (
+				2776D7381FFC61A100A1C742 /* Sources */,
+				2776D7391FFC61A100A1C742 /* Frameworks */,
+				2776D73A1FFC61A100A1C742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYPraiseEmitterButtonSwift;
+			productName = YYPraiseEmitterButtonSwift;
+			productReference = 2776D73C1FFC61A100A1C742 /* YYPraiseEmitterButtonSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2776D74F1FFC61A100A1C742 /* YYPraiseEmitterButtonSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2776D7671FFC61A100A1C742 /* Build configuration list for PBXNativeTarget "YYPraiseEmitterButtonSwiftTests" */;
+			buildPhases = (
+				2776D74C1FFC61A100A1C742 /* Sources */,
+				2776D74D1FFC61A100A1C742 /* Frameworks */,
+				2776D74E1FFC61A100A1C742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2776D7521FFC61A100A1C742 /* PBXTargetDependency */,
+			);
+			name = YYPraiseEmitterButtonSwiftTests;
+			productName = YYPraiseEmitterButtonSwiftTests;
+			productReference = 2776D7501FFC61A100A1C742 /* YYPraiseEmitterButtonSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2776D75A1FFC61A100A1C742 /* YYPraiseEmitterButtonSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2776D76A1FFC61A100A1C742 /* Build configuration list for PBXNativeTarget "YYPraiseEmitterButtonSwiftUITests" */;
+			buildPhases = (
+				2776D7571FFC61A100A1C742 /* Sources */,
+				2776D7581FFC61A100A1C742 /* Frameworks */,
+				2776D7591FFC61A100A1C742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2776D75D1FFC61A100A1C742 /* PBXTargetDependency */,
+			);
+			name = YYPraiseEmitterButtonSwiftUITests;
+			productName = YYPraiseEmitterButtonSwiftUITests;
+			productReference = 2776D75B1FFC61A100A1C742 /* YYPraiseEmitterButtonSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2776D7341FFC61A100A1C742 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ZTX;
+				TargetAttributes = {
+					2776D73B1FFC61A100A1C742 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					2776D74F1FFC61A100A1C742 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2776D73B1FFC61A100A1C742;
+					};
+					2776D75A1FFC61A100A1C742 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2776D73B1FFC61A100A1C742;
+					};
+				};
+			};
+			buildConfigurationList = 2776D7371FFC61A100A1C742 /* Build configuration list for PBXProject "YYPraiseEmitterButtonSwift" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2776D7331FFC61A100A1C742;
+			productRefGroup = 2776D73D1FFC61A100A1C742 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2776D73B1FFC61A100A1C742 /* YYPraiseEmitterButtonSwift */,
+				2776D74F1FFC61A100A1C742 /* YYPraiseEmitterButtonSwiftTests */,
+				2776D75A1FFC61A100A1C742 /* YYPraiseEmitterButtonSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2776D73A1FFC61A100A1C742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2776D74A1FFC61A100A1C742 /* LaunchScreen.storyboard in Resources */,
+				2776D7471FFC61A100A1C742 /* Assets.xcassets in Resources */,
+				2776D7451FFC61A100A1C742 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2776D74E1FFC61A100A1C742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2776D7591FFC61A100A1C742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2776D7381FFC61A100A1C742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2776D7421FFC61A100A1C742 /* ViewController.swift in Sources */,
+				2776D7401FFC61A100A1C742 /* AppDelegate.swift in Sources */,
+				2776D76E1FFC61C200A1C742 /* YYPraiseEmitterButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2776D74C1FFC61A100A1C742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2776D7551FFC61A100A1C742 /* YYPraiseEmitterButtonSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2776D7571FFC61A100A1C742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2776D7601FFC61A100A1C742 /* YYPraiseEmitterButtonSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2776D7521FFC61A100A1C742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2776D73B1FFC61A100A1C742 /* YYPraiseEmitterButtonSwift */;
+			targetProxy = 2776D7511FFC61A100A1C742 /* PBXContainerItemProxy */;
+		};
+		2776D75D1FFC61A100A1C742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2776D73B1FFC61A100A1C742 /* YYPraiseEmitterButtonSwift */;
+			targetProxy = 2776D75C1FFC61A100A1C742 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2776D7431FFC61A100A1C742 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2776D7441FFC61A100A1C742 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2776D7481FFC61A100A1C742 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2776D7491FFC61A100A1C742 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2776D7621FFC61A100A1C742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2776D7631FFC61A100A1C742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2776D7651FFC61A100A1C742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YYPraiseEmitterButtonSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ztx.YYPraiseEmitterButtonSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2776D7661FFC61A100A1C742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YYPraiseEmitterButtonSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ztx.YYPraiseEmitterButtonSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2776D7681FFC61A100A1C742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YYPraiseEmitterButtonSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ztx.YYPraiseEmitterButtonSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYPraiseEmitterButtonSwift.app/YYPraiseEmitterButtonSwift";
+			};
+			name = Debug;
+		};
+		2776D7691FFC61A100A1C742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YYPraiseEmitterButtonSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ztx.YYPraiseEmitterButtonSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYPraiseEmitterButtonSwift.app/YYPraiseEmitterButtonSwift";
+			};
+			name = Release;
+		};
+		2776D76B1FFC61A100A1C742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YYPraiseEmitterButtonSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ztx.YYPraiseEmitterButtonSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YYPraiseEmitterButtonSwift;
+			};
+			name = Debug;
+		};
+		2776D76C1FFC61A100A1C742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YYPraiseEmitterButtonSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ztx.YYPraiseEmitterButtonSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YYPraiseEmitterButtonSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2776D7371FFC61A100A1C742 /* Build configuration list for PBXProject "YYPraiseEmitterButtonSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2776D7621FFC61A100A1C742 /* Debug */,
+				2776D7631FFC61A100A1C742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2776D7641FFC61A100A1C742 /* Build configuration list for PBXNativeTarget "YYPraiseEmitterButtonSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2776D7651FFC61A100A1C742 /* Debug */,
+				2776D7661FFC61A100A1C742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2776D7671FFC61A100A1C742 /* Build configuration list for PBXNativeTarget "YYPraiseEmitterButtonSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2776D7681FFC61A100A1C742 /* Debug */,
+				2776D7691FFC61A100A1C742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2776D76A1FFC61A100A1C742 /* Build configuration list for PBXNativeTarget "YYPraiseEmitterButtonSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2776D76B1FFC61A100A1C742 /* Debug */,
+				2776D76C1FFC61A100A1C742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2776D7341FFC61A100A1C742 /* Project object */;
+}
